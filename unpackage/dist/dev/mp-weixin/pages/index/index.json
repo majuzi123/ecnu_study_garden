@@ -1,4 +1,6 @@
 {
-  "navigationBarTitleText": "uni-app",
-  "usingComponents": {}
+  "navigationBarTitleText": "狮学园",
+  "usingComponents": {
+    "index-discover": "/components/IndexDiscover/IndexDiscover"
+  }
 }

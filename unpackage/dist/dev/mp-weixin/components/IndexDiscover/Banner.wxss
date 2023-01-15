@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+
+
+
+/* 轮播图 */
+.indexDiscoverShow.data-v-56a398db{
+	height: 350rpx;
+	width: 700rpx;
+	margin-left: 25rpx;
+	background-color: lightgrey;
+	text-align:center;
+	border-radius: 20rpx;
+}
+.indexDiscoverShow ._img.data-v-56a398db{
+	height: 100%;
+	width: auto;
+	border-radius: 20rpx;
+}
+

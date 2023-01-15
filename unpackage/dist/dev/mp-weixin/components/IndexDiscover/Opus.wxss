@@ -1,0 +1,84 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 整体 */
+.OpusWhole.data-v-2613da2e{
+	width: 345rpx;
+	margin: 15rpx 10rpx;
+	display: inline-block;
+	border-radius: 15rpx;
+	border: 2rpx solid lightgray;
+}
+.OpusWhole ._img.data-v-2613da2e{
+	width: 100%;
+	border-radius: 15rpx;
+}
+/* 点赞等互动部分 */
+.OpusInteractions.data-v-2613da2e{
+	text-align: center;
+}
+.OpusInteraction.data-v-2613da2e{
+	display: inline-block;
+	margin: 10rpx 5rpx;
+}
+.OpusInteractions ._img.data-v-2613da2e{
+	width: 35rpx;
+	height: 35rpx;
+}
+.OpusInteractionTitle.data-v-2613da2e{
+	display: inline-block;
+}
+/* 头像和作者部分 */
+.OpusUser.data-v-2613da2e{
+	margin: 20rpx 10rpx;
+	height: 50rpx;
+}
+.OpusUser ._img.data-v-2613da2e{
+	width:50rpx;
+	height: 50rpx;
+}
+.OpusUserName.data-v-2613da2e{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 15rpx;
+	line-height: 50rpx;
+}
+
