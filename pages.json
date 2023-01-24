@@ -29,6 +29,7 @@
 	"tabBar": {
 		"color": "#7A7E83",
 		"selectedColor": "#ffcc00",
+		"selectedColor": "#1FA1FF",
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [{
@@ -47,6 +48,15 @@
 				"pagePath": "pages/profile/profile",
 				"iconPath": "static/tabbar_icon/me.png",
 				"selectedIconPath": "static/tabbar_icon/me-active2.png",
+				"iconPath": "static/images/user.png",
+				"selectedIconPath": "static/images/user-fill.png",
+				"text": "首页"
+			},
+
+			{
+				"pagePath": "pages/profile/profile",
+				"iconPath": "static/images/user.png",
+				"selectedIconPath": "static/images/user-fill.png",
 				"text": "我的"
 			}
 		]
