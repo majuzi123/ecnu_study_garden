@@ -1,24 +1,73 @@
 
-.content {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 首页头部导航栏 */
+.homeHeader.data-v-57280228{
+	background-color: white;
+	height: 100rpx;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	z-index: 10;
 }
-.logo {
-	height: 200rpx;
-	width: 200rpx;
-	margin-top: 200rpx;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 50rpx;
+.homeHeaderItem.data-v-57280228{
+	display: inline-block;
+	font-size: 40rpx;
+	line-height: 100rpx;
+	padding:0 30rpx;
 }
-.text-area {
-	display: flex;
-	justify-content: center;
+.homeHeaderItemActive.data-v-57280228{
+	border-bottom: 2px solid #ffcc00;
+	color: #ffcc00;
 }
-.title {
-	font-size: 36rpx;
-	color: #8f8f94;
+/* 中部组件部分 */
+.homeBody.data-v-57280228{
+	height: 2000rpx;
+	margin-top: 110rpx;
 }
 

@@ -1,52 +1,73 @@
 <template>
-	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
+	<view class="home">
+		<view class="homeHeader">
+			<view class="homeHeaderItem" :class="headerIndex===0?'homeHeaderItemActive':''" @tap="changeHeaderNav(0)">{{headerContent[0].name}}</view>
+			<view class="homeHeaderItem" :class="headerIndex===1?'homeHeaderItemActive':''" @tap="changeHeaderNav(1)">{{headerContent[1].name}}</view>
 		</view>
+		<swiper @change="onChangeIndex" class="homeBody" :current="headerIndex">
+			<swiper-item>
+				<IndexDiscover></IndexDiscover>
+			</swiper-item>
+			<swiper-item>
+				关注
+			</swiper-item>
+		</swiper>
+		
 	</view>
 </template>
 
 <script>
+	import IndexDiscover from '../../components/IndexDiscover/IndexDiscover'
 	export default {
+		name:'Index',
 		data() {
 			return {
-				title: 'Hello'
+				headerIndex:0,
+				headerContent:[
+					{'name':'发现'},
+					{'name':'关注'}
+				]
 			}
 		},
-		onLoad() {
-
+		methods:{
+			changeHeaderNav(val){
+				this.headerIndex=val
+			},
+			onChangeIndex(e){
+				this.changeHeaderNav(e.detail.current)
+			}
 		},
-		methods: {
-
+		components:{
+			IndexDiscover
 		}
 	}
 </script>
 
-<style>
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+<style scoped>
+	/* 首页头部导航栏 */
+	.homeHeader{
+		background-color: white;
+		height: 100rpx;
+		width: 100%;
+		text-align: center;
+		position: fixed;
+		top: var(--window-top);
+		left: 0;
+		z-index: 10;
 	}
-
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin-top: 200rpx;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 50rpx;
+	.homeHeaderItem{
+		display: inline-block;
+		font-size: 40rpx;
+		line-height: 100rpx;
+		padding:0 30rpx;
 	}
-
-	.text-area {
-		display: flex;
-		justify-content: center;
+	.homeHeaderItemActive{
+		border-bottom: 2px solid #ffcc00;
+		color: #ffcc00;
 	}
-
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
+	/* 中部组件部分 */
+	.homeBody{
+		height: 2000rpx;
+		margin-top: 110rpx;
 	}
 </style>

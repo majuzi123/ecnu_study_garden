@@ -1,6 +1,12 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+<<<<<<< HEAD
+    "pages/profile/profile",
+    "pages/upload/upload"
+=======
+    "pages/profile/profile"
+>>>>>>> 6dfd15201f594f906e8cf0cf8740ca2e078154d9
   ],
   "subPackages": [],
   "window": {
@@ -8,6 +14,47 @@
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+<<<<<<< HEAD
+    "selectedColor": "#ffcc00",
+=======
+    "selectedColor": "#1FA1FF",
+>>>>>>> 6dfd15201f594f906e8cf0cf8740ca2e078154d9
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+<<<<<<< HEAD
+        "iconPath": "static/tabbar_icon/index.png",
+        "selectedIconPath": "static/tabbar_icon/index-active2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/upload/upload",
+        "iconPath": "static/tabbar_icon/upload.png",
+        "selectedIconPath": "static/tabbar_icon/upload-active2.png",
+        "text": "上传"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "static/tabbar_icon/me.png",
+        "selectedIconPath": "static/tabbar_icon/me-active2.png",
+=======
+        "iconPath": "static/images/user.png",
+        "selectedIconPath": "static/images/user-fill.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "static/images/user.png",
+        "selectedIconPath": "static/images/user-fill.png",
+>>>>>>> 6dfd15201f594f906e8cf0cf8740ca2e078154d9
+        "text": "我的"
+      }
+    ]
   },
   "usingComponents": {}
 }
