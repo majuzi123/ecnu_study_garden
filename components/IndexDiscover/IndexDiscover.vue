@@ -25,8 +25,11 @@
 		<!-- 神仙作品部分标题 -->
 		<view class="indexDiscoverOpus">
 			<view class="indexDiscoverOpusTitle"> 神仙作品</view>
-			<Opus></Opus>
-			<Opus></Opus>
+			<view class="OpusContainer">
+				<view v-for="(opus,index) in opusList" :key="index" class="Opuscontainer2">
+						<Opus :opus="opus"></Opus>
+				</view>
+			</view>
 		</view>
 	</view>
 </template>
@@ -38,7 +41,30 @@
 		name:"IndexDiscover",
 		data() {
 			return {
-				
+				opusList:[
+					{
+						id:'000',
+						img: "/static/images/LOGO.png",
+						name: '名称，可以很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长',
+					}, {
+						id:'001',
+						img: 'http://pic.sc.chinaz.com/Files/pic/pic9/202002/zzpic23327_s.jpg',
+						name: '名称会在超出两行时候自动折叠',
+					},
+					{
+						id:'002',
+						img: '/static/example.png',
+						name: '只有一行标题时高度为39',
+					}, {
+						id:'003',
+						img: 'https://n.sinaimg.cn/sinakd20230125s/500/w800h500/20230125/d908-069c930d682ec4209cc2229cab516ee4.jpg',
+						name: '具体样式您可以自定义',
+					}, {
+						id:'004',
+						img: 'https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2023%2F0123%2Fbb3cc655j00roxt49002tc000hs00qog.jpg&thumbnail=660x2147483647&quality=80&type=jpg',
+						name: 'vue的H5页面也是如此使用',
+					},
+				]
 			};
 		},
 		components:{Banner,Opus}
@@ -51,7 +77,22 @@
 		
 	}
 	
+	.OpusContainer{
+		column-count: 2;
+		column-gap: 10rpx;
+	}
 	
+	.Opuscontainer2{
+		box-sizing: border-box;
+		border-radius: 15rpx;
+		overflow: hidden;
+		background-color: #fff;
+		break-inside: avoid;
+		/*避免在元素内部插入分页符*/
+		box-sizing: border-box;
+		margin-bottom: 20rpx;
+		box-shadow: 0px 0px 28rpx 1rpx rgba(78, 101, 153, 0.14);
+	}
 	/* 子页面选项 */
 	.indexBodyNav{
 		width: 720rpx;

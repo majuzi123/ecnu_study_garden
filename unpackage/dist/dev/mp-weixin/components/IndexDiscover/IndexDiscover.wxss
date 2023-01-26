@@ -46,8 +46,52 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 整体样式 */
 .indexDiscover.data-v-832b2a08{
+}
+.OpusContainer.data-v-832b2a08{
+	-webkit-column-count: 2;
+	        column-count: 2;
+	-webkit-column-gap: 10rpx;
+	        column-gap: 10rpx;
+}
+.Opuscontainer2.data-v-832b2a08{
+	box-sizing: border-box;
+	border-radius: 15rpx;
+	overflow: hidden;
+	background-color: #fff;
+	-webkit-column-break-inside: avoid;
+	        break-inside: avoid;
+	/*避免在元素内部插入分页符*/
+	box-sizing: border-box;
+	margin-bottom: 20rpx;
+	box-shadow: 0px 0px 28rpx 1rpx rgba(78, 101, 153, 0.14);
 }
 /* 子页面选项 */
 .indexBodyNav.data-v-832b2a08{

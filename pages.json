@@ -19,7 +19,16 @@
 			}
 		}
 
-	],
+	    ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
@@ -42,21 +51,12 @@
 				"pagePath": "pages/upload/upload",
 				"iconPath": "static/tabbar_icon/upload.png",
 				"selectedIconPath": "static/tabbar_icon/upload-active2.png",
-				"text": "上传"	
+				"text": "上传"
 			},
 			{
 				"pagePath": "pages/profile/profile",
 				"iconPath": "static/tabbar_icon/me.png",
 				"selectedIconPath": "static/tabbar_icon/me-active2.png",
-				"iconPath": "static/images/user.png",
-				"selectedIconPath": "static/images/user-fill.png",
-				"text": "首页"
-			},
-
-			{
-				"pagePath": "pages/profile/profile",
-				"iconPath": "static/images/user.png",
-				"selectedIconPath": "static/images/user-fill.png",
 				"text": "我的"
 			}
 		]

@@ -9,7 +9,7 @@
 				<IndexDiscover></IndexDiscover>
 			</swiper-item>
 			<swiper-item>
-				关注
+				<IndexConcern></IndexConcern>
 			</swiper-item>
 		</swiper>
 		
@@ -18,6 +18,7 @@
 
 <script>
 	import IndexDiscover from '../../components/IndexDiscover/IndexDiscover'
+	import IndexConcern from '../../components/IndexConcern/IndexConcern.vue'
 	export default {
 		name:'Index',
 		data() {
@@ -38,7 +39,8 @@
 			}
 		},
 		components:{
-			IndexDiscover
+			IndexDiscover,
+			IndexConcern,
 		}
 	}
 </script>
