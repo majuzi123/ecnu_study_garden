@@ -1,7 +1,7 @@
 {
+  "component": true,
   "usingComponents": {
     "banner": "/components/IndexDiscover/Banner",
     "opus": "/components/IndexDiscover/Opus"
-  },
-  "component": true
+  }
 }

@@ -1,0 +1,134 @@
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+.fot-xh .pic {
+	float: left;
+	height: 160rpx;
+	width: 160rpx;
+	margin-right: 50rpx;
+	margin-left: 38rpx;
+	margin-top: 60rpx;
+}
+.fot-xh .txt {
+	padding: 15rpx 0;
+	overflow: hidden;
+	font-family: sans-serif;
+}
+.fot-xh .txt .info {
+	margin-top: 80rpx;
+	position: absolute;
+	display: block;
+}
+.fot-xh .txt .info .nickname {
+	height: 30rpx;
+	width: 600rpx;
+	font-size: 35rpx;
+	margin-bottom: 26rpx;
+	font-weight: bold;
+}
+.fot-xh .txt .info .right {
+	height: 28rpx;
+	width: 600rpx;
+	font-size: 25rpx;
+	margin-bottom: 13rpx;
+}
+.fot-xh .txt .info .unit {
+	height: 28rpx;
+	width: 600rpx;
+	font-size: 25rpx;
+	margin-bottom: 13rpx;
+}
+.masonry-header {
+	margin: 0 calc(12 / 390 * 100vw);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.title {
+	margin-top: 50rpx;
+	margin-left: 50rpx;
+	color: #353535;
+	font-weight: bold;
+	font-size: calc(18 / 390 * 100vw);
+}
+
+/*瀑布流 */
+.pubuBox {
+	padding: 22rpx;
+}
+.pubuItem {
+	-webkit-column-count: 2;
+	        column-count: 2;
+	-webkit-column-gap: 20rpx;
+	        column-gap: 20rpx;
+}
+.item-masonry {
+	box-sizing: border-box;
+	border-radius: 15rpx;
+	overflow: hidden;
+	background-color: #fff;
+	-webkit-column-break-inside: avoid;
+	        break-inside: avoid;
+	/*避免在元素内部插入分页符*/
+	box-sizing: border-box;
+	margin-bottom: 20rpx;
+	box-shadow: 0px 0px 28rpx 1rpx rgba(78, 101, 153, 0.14);
+}
+.item-masonry image {
+	width: 100%;
+}
+.listtitle {
+	padding-left: 22rpx;
+	font-size: 24rpx;
+	padding-bottom: 22rpx;
+}
+.listtitle.listtitle1 {
+	line-height: 39rpx;
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+	min-height: 39rpx;
+	max-height: 78rpx;
+}
+.listtitle.listtitle2 {
+	color: #ff0000;
+	font-size: 32rpx;
+	line-height: 32rpx;
+	font-weight: bold;
+	padding-top: 22rpx;
+}
+.listtitle.listtitle2.listtitle2son {
+	font-size: 32rpx;
+}
+.listtitle.listtitle3 {
+	font-size: 28rpx;
+	color: #909399;
+	line-height: 32rpx;
+	padding-top: 22rpx;
+}
+.Index {
+	width: 100%;
+	height: 100%;
+	margin-top: 20rpx;
+}
+.OpusInteractions {
+	text-align: center;
+}
+.OpusInteraction {
+	display: inline-block;
+	margin: 10rpx 5rpx;
+}
+.OpusInteractions ._img {
+	width: 35rpx;
+	height: 35rpx;
+}
+.OpusInteractionTitle {
+	display: inline-block;
+}
+
