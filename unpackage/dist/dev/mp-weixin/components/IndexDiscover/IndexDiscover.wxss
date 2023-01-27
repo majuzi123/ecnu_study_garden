@@ -80,6 +80,7 @@
 	        column-count: 2;
 	-webkit-column-gap: 10rpx;
 	        column-gap: 10rpx;
+	margin-top: 20rpx;
 }
 .Opuscontainer2.data-v-832b2a08{
 	box-sizing: border-box;
@@ -112,7 +113,7 @@
 	border-radius: 50%;
 	padding: 15rpx 0;
 }
-.NavItemImg ._img.data-v-832b2a08{
+.NavItemImg image.data-v-832b2a08{
 	width: 60rpx;
 	height: 60rpx;
 	margin: 5rpx 0;

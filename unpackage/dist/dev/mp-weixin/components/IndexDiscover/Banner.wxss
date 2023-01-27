@@ -18,7 +18,7 @@
 	text-align:center;
 	border-radius: 20rpx;
 }
-.indexDiscoverShow ._img.data-v-56a398db{
+.indexDiscoverShow image.data-v-56a398db{
 	height: 100%;
 	width: auto;
 	border-radius: 20rpx;

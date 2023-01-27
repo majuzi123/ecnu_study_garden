@@ -5,19 +5,19 @@
 		<!-- 子页面选项 -->
 		<view class="indexBodyNav">
 			<view class="indexBodyNavItem">
-				<view class="NavItemImg"><img src="../../static/tabbar_icon/index.png"></view>
+				<view class="NavItemImg"><image src="../../static/tabbar_icon/index.png"></view>
 				<view>主题</view>
 			</view>
 			<view class="indexBodyNavItem">
-				<view class="NavItemImg"><img src="../../static/tabbar_icon/index.png"></view>
+				<view class="NavItemImg"><image src="../../static/tabbar_icon/index.png"></view>
 				<view>论坛</view>
 			</view>
 			<view class="indexBodyNavItem">
-				<view class="NavItemImg"><img src="../../static/tabbar_icon/index.png"></view>
+				<view class="NavItemImg"><image src="../../static/tabbar_icon/index.png"></view>
 				<view>排行榜</view>
 			</view>
 			<view class="indexBodyNavItem">
-				<view class="NavItemImg"><img src="../../static/tabbar_icon/index.png"></view>
+				<view class="NavItemImg"><image src="../../static/tabbar_icon/index.png"></view>
 				<view>活动</view>
 			</view>
 		</view>
@@ -44,7 +44,7 @@
 				opusList:[
 					{
 						id:'000',
-						img: "/static/images/LOGO.png",
+						img: "../../static/images/LOGO.png",
 						name: '名称，可以很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长',
 					}, {
 						id:'001',
@@ -53,7 +53,7 @@
 					},
 					{
 						id:'002',
-						img: '/static/example.png',
+						img: '../../static/example.png',
 						name: '只有一行标题时高度为39',
 					}, {
 						id:'003',
@@ -80,6 +80,7 @@
 	.OpusContainer{
 		column-count: 2;
 		column-gap: 10rpx;
+		margin-top: 20rpx;
 	}
 	
 	.Opuscontainer2{
@@ -112,7 +113,7 @@
 		border-radius: 50%;
 		padding: 15rpx 0;
 	}
-	.NavItemImg img{
+	.NavItemImg image{
 		width: 60rpx;
 		height: 60rpx;
 		margin: 5rpx 0;

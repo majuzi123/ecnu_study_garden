@@ -48,7 +48,7 @@
 	margin: 15rpx 10rpx;
 	border-radius: 15rpx;
 }
-.OpusWhole ._img.data-v-2613da2e{
+.OpusWhole image.data-v-2613da2e{
 	width: 100%;
 	border-radius: 15rpx;
 }
@@ -77,7 +77,7 @@
 	display: inline-block;
 	margin: 10rpx 5rpx;
 }
-.OpusInteractions ._img.data-v-2613da2e{
+.OpusInteractions image.data-v-2613da2e{
 	width: 35rpx;
 	height: 35rpx;
 }
@@ -89,7 +89,7 @@
 	margin: 20rpx 10rpx;
 	height: 50rpx;
 }
-.OpusUser ._img.data-v-2613da2e{
+.OpusUser image.data-v-2613da2e{
 	width:50rpx;
 	height: 50rpx;
 }

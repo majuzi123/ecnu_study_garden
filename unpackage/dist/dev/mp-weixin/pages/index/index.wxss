@@ -46,6 +46,26 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 首页头部导航栏 */
 .homeHeader.data-v-57280228{
 	background-color: white;
@@ -69,7 +89,6 @@
 }
 /* 中部组件部分 */
 .homeBody.data-v-57280228{
-	height: 2000rpx;
 	margin-top: 110rpx;
 }
 

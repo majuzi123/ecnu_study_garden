@@ -1,7 +1,7 @@
 <template>
 	<swiper class="indexDiscoverShow" autoplay interval="1500">
-		<swiper-item><img src="../../static/logo.png" mode="heightFix"></swiper-item>
-		<swiper-item><img src="../../static/example.png" mode="heightFix"></swiper-item>
+		<swiper-item><image src="../../static/logo.png" mode="heightFix"></swiper-item>
+		<swiper-item><image src="../../static/example.png" mode="heightFix"></swiper-item>
 	</swiper>
 </template>
 
@@ -18,7 +18,7 @@
 		text-align:center;
 		border-radius: 20rpx;
 	}
-	.indexDiscoverShow img{
+	.indexDiscoverShow image{
 		height: 100%;
 		width: auto;
 		border-radius: 20rpx;

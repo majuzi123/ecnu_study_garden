@@ -105,11 +105,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/IndexDiscover/IndexDiscover":1,"components/IndexDiscover/Banner":1,"components/IndexDiscover/Opus":1};
+/******/ 		var cssChunks = {"components/IndexConcern/IndexConcern":1,"components/IndexDiscover/IndexDiscover":1,"components/IndexConcern/IndexConcernRecommend":1,"components/IndexDiscover/Banner":1,"components/IndexDiscover/Opus":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/IndexDiscover/IndexDiscover":"components/IndexDiscover/IndexDiscover","components/IndexConcern/IndexConcern":"components/IndexConcern/IndexConcern","components/IndexDiscover/Banner":"components/IndexDiscover/Banner","components/IndexDiscover/Opus":"components/IndexDiscover/Opus"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/IndexConcern/IndexConcern":"components/IndexConcern/IndexConcern","components/IndexDiscover/IndexDiscover":"components/IndexDiscover/IndexDiscover","components/IndexConcern/IndexConcernRecommend":"components/IndexConcern/IndexConcernRecommend","components/IndexDiscover/Banner":"components/IndexDiscover/Banner","components/IndexDiscover/Opus":"components/IndexDiscover/Opus"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {
