@@ -2,17 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/profile/profile",
-<<<<<<< HEAD
     "pages/upload/upload",
     "pages/login/login"
-=======
-<<<<<<< HEAD
-    "pages/upload/upload",
-    "pages/login/login"
-=======
-    "pages/upload/upload"
->>>>>>> 59666e6249c2e543518fba4a17363e4be3cbdf5d
->>>>>>> b0a145a6e7262494c845c9f789f826cac590eb93
   ],
   "subPackages": [],
   "window": {

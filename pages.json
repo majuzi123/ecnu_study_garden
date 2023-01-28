@@ -17,17 +17,16 @@
 			"style": {
 				"navigationBarTitleText": "上传"
 			}
+		},
+		{
+			"path" : "pages/login/login",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "狮学园",
+				"enablePullDownRefresh": false
+			}
+			
 		}
-
-	    ,{
-            "path" : "pages/login/login",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

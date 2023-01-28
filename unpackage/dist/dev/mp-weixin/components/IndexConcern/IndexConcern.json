@@ -1,6 +1,6 @@
 {
+  "component": true,
   "usingComponents": {
     "index-concern-recommend": "/components/IndexConcern/IndexConcernRecommend"
-  },
-  "component": true
+  }
 }
