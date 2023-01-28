@@ -1,0 +1,51 @@
+
+.recommendHeader image.data-v-408fb5f0{
+	width: 90rpx;
+	height: 90rpx;
+}
+.recommendUserInfo.data-v-408fb5f0{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 10rpx;
+	margin-left: 40rpx;
+	line-height: 40rpx;
+}
+.recommendBody.data-v-408fb5f0{
+	width: 720rpx;
+}
+.recommendOpusLeft.data-v-408fb5f0{
+	float: left;
+}
+.recommendOpusLeft image.data-v-408fb5f0{
+	background-color: lightgray;
+	border-radius: 15rpx;
+	width:300rpx;
+	height:225rpx;
+}
+.recommendOpusRight.data-v-408fb5f0{
+	height: 225rpx;
+	margin-bottom: 10rpx;
+	margin-left: 10rpx;
+	display: inline-block;
+	padding: 10rpx 0;
+}
+.recommendOpusIntro.data-v-408fb5f0{
+	width: 400rpx;
+	height: 132rpx;
+	line-height: 44rpx;
+	overflow: hidden;
+	word-break: break-all;
+	text-overflow:ellipsis;
+}
+.OpusInteractions.data-v-408fb5f0{
+	text-align: center;
+}
+.OpusInteraction.data-v-408fb5f0{
+	display: inline-block;
+	margin: 10rpx 25rpx;
+}
+.OpusInteractions image.data-v-408fb5f0{
+	width: 35rpx;
+	height: 35rpx;
+}
+
