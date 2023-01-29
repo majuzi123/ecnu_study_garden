@@ -17,7 +17,7 @@
 				<view>排行榜</view>
 			</view>
 			<view class="indexBodyNavItem">
-				<view class="NavItemImg"><image src="../../static/tabbar_icon/index.png"></view>
+				<view class="NavItemImg"><image src="../../static/tabbar_icon/index.png" @tap="goActivity"></view>
 				<view>活动</view>
 			</view>
 		</view>
@@ -67,7 +67,14 @@
 				]
 			};
 		},
-		components:{Banner,Opus}
+		components:{Banner,Opus},
+		methods:{
+			goActivity(){
+				uni.navigateTo({
+					url:'/pages/activity/activity'
+				})
+			}
+		}
 	}
 </script>
 

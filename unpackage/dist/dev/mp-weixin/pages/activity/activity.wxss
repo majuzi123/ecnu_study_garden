@@ -1,0 +1,11 @@
+
+.wholeContainer.data-v-00316766{
+	background-color: lightgray;
+}
+.activityItemContainer.data-v-00316766{
+	background-color: lightgray;
+}
+.activityItemContainer ActivityItem.data-v-00316766{
+	margin: 20rpx 0;
+}
+

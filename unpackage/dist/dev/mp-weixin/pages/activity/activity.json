@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "活动",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "banner": "/components/IndexDiscover/Banner",
+    "activity-item": "/components/Activity/ActivityItem"
+  }
+}

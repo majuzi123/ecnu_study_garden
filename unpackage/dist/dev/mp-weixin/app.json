@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/profile/profile",
     "pages/upload/upload",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/activity/activity"
   ],
   "subPackages": [],
   "window": {
