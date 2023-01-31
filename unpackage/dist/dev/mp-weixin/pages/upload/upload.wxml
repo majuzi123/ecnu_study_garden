@@ -1,1 +1,1 @@
-<view>上传</view>
+<view><upload-box vue-id="527729c0-1" bind:__l="__l"></upload-box><view class="text1"><textarea class="text-input" placeholder="最大输入长度为140snsnnsjncjnxjnjxcnjcnxjncjnjcncjncjcncjncjncjcnjcjncjncjcnj"></textarea></view><upload-file vue-id="527729c0-2" bind:__l="__l"></upload-file><view class="btn"><button class="button-yuanjiao" hover-class="bg-click">取消</button><button class="button-yuanjiao" hover-class="bg-click">上传</button></view></view>

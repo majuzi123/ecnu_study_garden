@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/profile/profile",
-    "pages/upload/upload"
+    "pages/upload/upload",
+    "pages/add_attachment/add_attachment"
   ],
   "subPackages": [],
   "window": {

@@ -102,7 +102,7 @@ var components
 try {
   components = {
     IndexDiscover: function () {
-      return Promise.all(/*! import() | components/IndexDiscover/IndexDiscover */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/IndexDiscover/IndexDiscover")]).then(__webpack_require__.bind(null, /*! @/components/IndexDiscover/IndexDiscover.vue */ 67))
+      return Promise.all(/*! import() | components/IndexDiscover/IndexDiscover */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/IndexDiscover/IndexDiscover")]).then(__webpack_require__.bind(null, /*! @/components/IndexDiscover/IndexDiscover.vue */ 80))
     },
   }
 } catch (e) {
@@ -167,7 +167,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var IndexDiscover = function IndexDiscover() {
   Promise.all(/*! require.ensure | components/IndexDiscover/IndexDiscover */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/IndexDiscover/IndexDiscover")]).then((function () {
-    return resolve(__webpack_require__(/*! ../../components/IndexDiscover/IndexDiscover */ 67));
+    return resolve(__webpack_require__(/*! ../../components/IndexDiscover/IndexDiscover */ 80));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var _default = {

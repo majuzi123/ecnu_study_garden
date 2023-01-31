@@ -1,0 +1,17 @@
+{
+    "id": "fui-button",
+    "name": "Button 按钮（fui-button）",
+    "version": "v1.6.0",
+    "description": "FirstUI Button 按钮，支持自定义大小、颜色等。",
+    "keywords": [
+        "fui-button",
+        "FirstUI",
+        "按钮"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

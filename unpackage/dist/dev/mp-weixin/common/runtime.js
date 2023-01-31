@@ -105,11 +105,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/IndexDiscover/IndexDiscover":1,"components/IndexDiscover/Banner":1,"components/IndexDiscover/Opus":1};
+/******/ 		var cssChunks = {"components/IndexDiscover/IndexDiscover":1,"components/upload-box/upload-box":1,"components/upload-file/upload-file":1,"uni_modules/lsj-upload/components/lsj-upload/lsj-upload":1,"components/IndexDiscover/Banner":1,"components/IndexDiscover/Opus":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/IndexDiscover/IndexDiscover":"components/IndexDiscover/IndexDiscover","components/IndexDiscover/Banner":"components/IndexDiscover/Banner","components/IndexDiscover/Opus":"components/IndexDiscover/Opus"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/IndexDiscover/IndexDiscover":"components/IndexDiscover/IndexDiscover","components/upload-box/upload-box":"components/upload-box/upload-box","components/upload-file/upload-file":"components/upload-file/upload-file","uni_modules/lsj-upload/components/lsj-upload/lsj-upload":"uni_modules/lsj-upload/components/lsj-upload/lsj-upload","components/IndexDiscover/Banner":"components/IndexDiscover/Banner","components/IndexDiscover/Opus":"components/IndexDiscover/Opus"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {
