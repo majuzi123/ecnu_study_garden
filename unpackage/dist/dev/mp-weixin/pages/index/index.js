@@ -102,7 +102,10 @@ var components
 try {
   components = {
     IndexDiscover: function () {
-      return Promise.all(/*! import() | components/IndexDiscover/IndexDiscover */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/IndexDiscover/IndexDiscover")]).then(__webpack_require__.bind(null, /*! @/components/IndexDiscover/IndexDiscover.vue */ 80))
+      return __webpack_require__.e(/*! import() | components/IndexDiscover/IndexDiscover */ "components/IndexDiscover/IndexDiscover").then(__webpack_require__.bind(null, /*! @/components/IndexDiscover/IndexDiscover.vue */ 88))
+    },
+    IndexConcern: function () {
+      return __webpack_require__.e(/*! import() | components/IndexConcern/IndexConcern */ "components/IndexConcern/IndexConcern").then(__webpack_require__.bind(null, /*! @/components/IndexConcern/IndexConcern.vue */ 95))
     },
   }
 } catch (e) {
@@ -159,15 +162,20 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
+/* WEBPACK VAR INJECTION */(function(uni) {
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var IndexDiscover = function IndexDiscover() {
-  Promise.all(/*! require.ensure | components/IndexDiscover/IndexDiscover */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/IndexDiscover/IndexDiscover")]).then((function () {
-    return resolve(__webpack_require__(/*! ../../components/IndexDiscover/IndexDiscover */ 80));
+  __webpack_require__.e(/*! require.ensure | components/IndexDiscover/IndexDiscover */ "components/IndexDiscover/IndexDiscover").then((function () {
+    return resolve(__webpack_require__(/*! ../../components/IndexDiscover/IndexDiscover */ 88));
+  }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
+};
+var IndexConcern = function IndexConcern() {
+  __webpack_require__.e(/*! require.ensure | components/IndexConcern/IndexConcern */ "components/IndexConcern/IndexConcern").then((function () {
+    return resolve(__webpack_require__(/*! ../../components/IndexConcern/IndexConcern.vue */ 95));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var _default = {
@@ -179,7 +187,9 @@ var _default = {
         'name': '发现'
       }, {
         'name': '关注'
-      }]
+      }],
+      // 内容块的高度
+      contentHeight: 0
     };
   },
   methods: {
@@ -191,10 +201,27 @@ var _default = {
     }
   },
   components: {
-    IndexDiscover: IndexDiscover
+    IndexDiscover: IndexDiscover,
+    IndexConcern: IndexConcern
+  },
+  onReady: function onReady() {
+    var _this = this;
+    //搞定swipper高度设置
+    var view1 = uni.createSelectorQuery().select(".homeData1");
+    var view2 = uni.createSelectorQuery().select(".homeData2");
+    view1.fields({
+      size: true,
+      scrollOffset: false
+    }, function (data) {
+      if (_this.contentHeight < data.height) _this.contentHeight = data.height;
+    }).exec();
+    view2.boundingClientRect(function (data) {
+      if (_this.contentHeight < data.height) _this.contentHeight = data.height;
+    }).exec();
   }
 };
 exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
 

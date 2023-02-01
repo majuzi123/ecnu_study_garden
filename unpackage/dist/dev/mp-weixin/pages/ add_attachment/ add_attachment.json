@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "附件上传",
-  "usingComponents": {
-    "lsj-upload": "/uni_modules/lsj-upload/components/lsj-upload/lsj-upload"
-  }
-}
