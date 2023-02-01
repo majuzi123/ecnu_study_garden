@@ -4,7 +4,8 @@
     "pages/profile/profile",
     "pages/upload/upload",
     "pages/login/login",
-    "pages/activity/activity"
+    "pages/activity/activity",
+    "pages/forum/forum"
   ],
   "subPackages": [],
   "window": {

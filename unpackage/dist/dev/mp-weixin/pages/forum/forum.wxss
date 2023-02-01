@@ -1,0 +1,36 @@
+
+.container.data-v-7386314a{
+		background-color: lightgray;
+		display: flex;
+		padding:10rpx 15rpx;
+}
+.navigator.data-v-7386314a{
+		position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 200rpx;
+        border-right: 1px solid #e4e6e9;
+        background-color: #fff;
+}
+.navigatorItem.data-v-7386314a{
+		background-color: lightgray;
+		color: white;
+		width: 80%;
+		text-align: center;
+		line-height: 60rpx;
+		border-radius: 50rpx;
+		margin-left: 10%;
+		margin-top: 50rpx;
+		margin-bottom: 50rpx;
+}
+.content.data-v-7386314a{
+		position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 200rpx;
+        overflow-y: auto;
+        background-color: lightgray;
+}
+

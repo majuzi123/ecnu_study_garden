@@ -9,7 +9,7 @@
 				<view>主题</view>
 			</view>
 			<view class="indexBodyNavItem">
-				<view class="NavItemImg"><image src="../../static/tabbar_icon/index.png"></view>
+				<view class="NavItemImg"><image src="../../static/tabbar_icon/index.png" @tap="goForum"></view>
 				<view>论坛</view>
 			</view>
 			<view class="indexBodyNavItem">
@@ -72,6 +72,11 @@
 			goActivity(){
 				uni.navigateTo({
 					url:'/pages/activity/activity'
+				})
+			},
+			goForum(){
+				uni.navigateTo({
+					url:'/pages/forum/forum'
 				})
 			}
 		}

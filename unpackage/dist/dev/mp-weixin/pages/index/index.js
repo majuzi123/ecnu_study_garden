@@ -101,10 +101,10 @@ var components
 try {
   components = {
     IndexDiscover: function () {
-      return __webpack_require__.e(/*! import() | components/IndexDiscover/IndexDiscover */ "components/IndexDiscover/IndexDiscover").then(__webpack_require__.bind(null, /*! @/components/IndexDiscover/IndexDiscover.vue */ 72))
+      return __webpack_require__.e(/*! import() | components/IndexDiscover/IndexDiscover */ "components/IndexDiscover/IndexDiscover").then(__webpack_require__.bind(null, /*! @/components/IndexDiscover/IndexDiscover.vue */ 87))
     },
     IndexConcern: function () {
-      return __webpack_require__.e(/*! import() | components/IndexConcern/IndexConcern */ "components/IndexConcern/IndexConcern").then(__webpack_require__.bind(null, /*! @/components/IndexConcern/IndexConcern.vue */ 79))
+      return __webpack_require__.e(/*! import() | components/IndexConcern/IndexConcern */ "components/IndexConcern/IndexConcern").then(__webpack_require__.bind(null, /*! @/components/IndexConcern/IndexConcern.vue */ 94))
     },
   }
 } catch (e) {
@@ -169,12 +169,12 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var IndexDiscover = function IndexDiscover() {
   __webpack_require__.e(/*! require.ensure | components/IndexDiscover/IndexDiscover */ "components/IndexDiscover/IndexDiscover").then((function () {
-    return resolve(__webpack_require__(/*! ../../components/IndexDiscover/IndexDiscover */ 72));
+    return resolve(__webpack_require__(/*! ../../components/IndexDiscover/IndexDiscover */ 87));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var IndexConcern = function IndexConcern() {
   __webpack_require__.e(/*! require.ensure | components/IndexConcern/IndexConcern */ "components/IndexConcern/IndexConcern").then((function () {
-    return resolve(__webpack_require__(/*! ../../components/IndexConcern/IndexConcern.vue */ 79));
+    return resolve(__webpack_require__(/*! ../../components/IndexConcern/IndexConcern.vue */ 94));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var _default = {
