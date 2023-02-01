@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/profile/profile",
     "pages/upload/upload",
-    "pages/add_attachment/add_attachment"
+    "pages/add_attachment/add_attachment",
+    "pages/login/login"
   ],
   "subPackages": [],
   "window": {

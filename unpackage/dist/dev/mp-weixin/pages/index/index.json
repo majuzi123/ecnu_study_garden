@@ -1,6 +1,7 @@
 {
   "navigationBarTitleText": "狮学园",
   "usingComponents": {
-    "index-discover": "/components/IndexDiscover/IndexDiscover"
+    "index-discover": "/components/IndexDiscover/IndexDiscover",
+    "index-concern": "/components/IndexConcern/IndexConcern"
   }
 }

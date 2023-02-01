@@ -102,10 +102,10 @@ var components
 try {
   components = {
     uploadBox: function () {
-      return __webpack_require__.e(/*! import() | components/upload-box/upload-box */ "components/upload-box/upload-box").then(__webpack_require__.bind(null, /*! @/components/upload-box/upload-box.vue */ 88))
+      return __webpack_require__.e(/*! import() | components/upload-box/upload-box */ "components/upload-box/upload-box").then(__webpack_require__.bind(null, /*! @/components/upload-box/upload-box.vue */ 102))
     },
     uploadFile: function () {
-      return __webpack_require__.e(/*! import() | components/upload-file/upload-file */ "components/upload-file/upload-file").then(__webpack_require__.bind(null, /*! @/components/upload-file/upload-file.vue */ 95))
+      return __webpack_require__.e(/*! import() | components/upload-file/upload-file */ "components/upload-file/upload-file").then(__webpack_require__.bind(null, /*! @/components/upload-file/upload-file.vue */ 109))
     },
   }
 } catch (e) {

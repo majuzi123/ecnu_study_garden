@@ -25,6 +25,14 @@
 				"navigationBarTitleText": "附件上传"
 			}
 
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "狮学园",
+				"enablePullDownRefresh": false
+			}
+
 		}
 	],
 	"globalStyle": {

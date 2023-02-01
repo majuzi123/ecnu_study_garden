@@ -1,0 +1,45 @@
+
+.IndexConcernListContainer.data-v-485ae444{
+	width: 720rpx;
+	margin: 10rpx 15rpx;
+	padding-bottom: 20rpx;
+	border-bottom: 10rpx lightgray solid;
+}
+.IndexConcernListTitle.data-v-485ae444{
+	font-size: 40rpx;
+}
+.IndexConcernListBody.data-v-485ae444{
+	width: 100%;
+	text-align: center;
+	margin-top: 10rpx;
+}
+.IndexConcernListItem image.data-v-485ae444{
+	width: 100rpx;
+}
+.IndexConcernListItem.data-v-485ae444{
+	display: inline-block;
+	padding: 0rpx 15rpx;
+}
+.IndexConcernListItemTitle.data-v-485ae444{
+	width: 100rpx;
+	line-height: 40rpx;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.IndexConcernListMore.data-v-485ae444{
+	vertical-align:top;
+	display: inline-block;
+	line-height: 140rpx;
+	height: 146rpx;
+	width: 7%;
+	margin-left: 15rpx;
+	color: white;
+	background-color: lightgray;
+	border-radius: 20rpx;
+}
+.recommendOpus.data-v-485ae444{
+	padding-bottom: 10rpx;
+	margin: 20rpx 15rpx;
+	border-bottom: 10rpx solid lightgray;
+}
+
