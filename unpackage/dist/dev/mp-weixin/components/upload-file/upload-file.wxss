@@ -1,0 +1,47 @@
+
+.com-item {
+	padding-left: 20rpx;
+	padding-right: 20rpx;
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+}
+.com-item .com-wrap {
+	border-radius: 25rpx;
+	overflow: hidden;
+}
+.cell {
+	height: 100rpx;
+	padding-left: 20rpx;
+	padding-right: 20rpx;
+	margin-top: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+	border-bottom: 1px solid #f8f8f8;
+}
+.cell-left {
+	display: flex;
+	align-items: center;
+}
+.cell-icon {
+	width: 50rpx;
+	height: 50rpx;
+	float: left;
+}
+.cell-text {
+	width: 610rpx;
+	color: #666;
+	font-size: 28rpx;
+	margin-left: 20rpx;
+	color: #000;
+}
+.arrow {
+	width: 30rpx;
+	height: 30rpx;
+}
+.iconfont {
+	font-size: 40rpx;
+	color: #999;
+}
+

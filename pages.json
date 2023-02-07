@@ -19,33 +19,42 @@
 			}
 		},
 		{
-			"path" : "pages/login/login",
-			"style" :                                                                                    
-			{
+			"path": "pages/login/login",
+			"style": {
 				"navigationBarTitleText": "狮学园",
 				"enablePullDownRefresh": false
 			}
-			
+
 		}
-        ,{
-            "path" : "pages/activity/activity",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "活动",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/forum/forum",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-    ],
+
+		, {
+			"path": "pages/activity/activity",
+			"style": {
+				"navigationBarTitleText": "活动",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/forum/forum",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+			"path": "pages/add_attachment/add_attachment",
+			"style": {
+				"navigationBarTitleText": "附件上传"
+			}
+
+		}
+	],
+
+
+
+
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
