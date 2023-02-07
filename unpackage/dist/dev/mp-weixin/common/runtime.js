@@ -105,11 +105,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/IndexConcern/IndexConcern":1,"components/IndexDiscover/IndexDiscover":1,"components/Activity/ActivityItem":1,"components/IndexDiscover/Banner":1,"components/Forum/ForumItem":1,"components/IndexConcern/IndexConcernRecommend":1,"components/IndexDiscover/Opus":1};
+/******/ 		var cssChunks = {"components/IndexConcern/IndexConcern":1,"components/IndexDiscover/IndexDiscover":1,"components/upload-box/upload-box":1,"components/upload-file/upload-file":1,"components/Activity/ActivityItem":1,"components/IndexDiscover/Banner":1,"components/Forum/ForumItem":1,"uni_modules/lsj-upload/components/lsj-upload/lsj-upload":1,"components/IndexConcern/IndexConcernRecommend":1,"components/IndexDiscover/Opus":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/IndexConcern/IndexConcern":"components/IndexConcern/IndexConcern","components/IndexDiscover/IndexDiscover":"components/IndexDiscover/IndexDiscover","components/Activity/ActivityItem":"components/Activity/ActivityItem","components/IndexDiscover/Banner":"components/IndexDiscover/Banner","components/Forum/ForumItem":"components/Forum/ForumItem","components/IndexConcern/IndexConcernRecommend":"components/IndexConcern/IndexConcernRecommend","components/IndexDiscover/Opus":"components/IndexDiscover/Opus"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/IndexConcern/IndexConcern":"components/IndexConcern/IndexConcern","components/IndexDiscover/IndexDiscover":"components/IndexDiscover/IndexDiscover","components/upload-box/upload-box":"components/upload-box/upload-box","components/upload-file/upload-file":"components/upload-file/upload-file","components/Activity/ActivityItem":"components/Activity/ActivityItem","components/IndexDiscover/Banner":"components/IndexDiscover/Banner","components/Forum/ForumItem":"components/Forum/ForumItem","uni_modules/lsj-upload/components/lsj-upload/lsj-upload":"uni_modules/lsj-upload/components/lsj-upload/lsj-upload","components/IndexConcern/IndexConcernRecommend":"components/IndexConcern/IndexConcernRecommend","components/IndexDiscover/Opus":"components/IndexDiscover/Opus"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

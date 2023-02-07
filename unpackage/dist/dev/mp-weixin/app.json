@@ -5,7 +5,8 @@
     "pages/upload/upload",
     "pages/login/login",
     "pages/activity/activity",
-    "pages/forum/forum"
+    "pages/forum/forum",
+    "pages/add_attachment/add_attachment"
   ],
   "subPackages": [],
   "window": {
